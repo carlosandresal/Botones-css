@@ -8,7 +8,7 @@ codificar los 3 botones que aparecen en una imagen `png` .
 
 El ejercicio consta de codificar 3 botones en `CSS` usando los conocimientos adquiridos. Como ejemplo tomaremos una imagen `PNG`.
 
-![imagen botones]()
+![imagen botones](https://raw.githubusercontent.com/studioArtbliss/Botones-css/master/img/Boto%CC%81nes.png)
 
 ## :black_square_button: Objetivos
 
