@@ -1,0 +1,101 @@
+/***********************************
+GENERALES
+***********************************/
+
+body {
+    background: #cc7a00;
+}
+h1 {
+    color: #f0f8ff;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+div {
+    display: flex;
+    justify-content: space-around;
+    -ms-align-items: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.container {
+    width: 70%;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 50vh;
+}
+div:nth-child(2) {
+    width: 100%;
+    min-height: 30vh;
+    background: rgba(255, 255, 255, 0.78);
+    border-radius: 30px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.6);
+}
+
+/***********************************
+BOTONES
+***********************************/
+
+
+/* Botón - General */
+
+button {
+    border: none;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 25px;
+    width: 180px;
+    color: aliceblue;
+    margin: auto 3%;
+    outline: none;
+    box-shadow: 0 0 10px #000;
+    transition: all .4s ease-in-out;
+}
+
+/* Botón - 1 */
+
+button:nth-child(1) {
+    background: -webkit-radial-gradient(50%, ellipse cover, #4981b9, #273d63);
+    background: -moz-radial-gradient(50%, ellipse cover, #4981b9, #273d63);
+    height: 50px;
+    border-radius: 15px;
+}
+button:nth-child(1):hover {
+    background: -webkit-radial-gradient(50%, circle cover, #4981b9, #273d63);
+    background: -moz-radial-gradient(50%, circle cover, #4981b9, #273d63);
+    transform: scale(1.1);
+}
+
+/* Botón - 2 */
+
+button:nth-child(2) {
+    background: linear-gradient(#ed8c83, #e4685d);
+    border: 1px solid rgb(255, 68, 68);
+    border-radius: 10px;
+    height: 60px;
+    font-weight: 900;
+}
+button:nth-child(2):hover {
+    background: linear-gradient(#e4685d, #ed8c83);
+    transform: rotate(5deg);
+}
+
+/* Botón - 3 */
+
+button:nth-child(3) {
+    height: 70px;
+    border-bottom: 6px solid rgb(138, 42, 33);
+    border-right: 6px solid rgb(138, 42, 33);
+    background: linear-gradient(#d33426, #f04a3c);
+    border-radius: 25px;
+    /*    box-sizing: border-box;*/
+}
+button:nth-child(3):hover {
+    background: linear-gradient(#f04a3c, #d33426);
+    border-bottom: none;
+    border-right: none;
+}
