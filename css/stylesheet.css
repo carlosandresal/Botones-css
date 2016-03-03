@@ -4,10 +4,21 @@ GENERALES
 
 body {
     background: #212121;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    font-family: 'avenirLTStd-Book', serif;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
 }
 h1 {
     color: #f0f8ff;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family:'Helvetica LT Std', sans-serif;
     font-size: 60px;
     text-align: center;
 }
@@ -37,6 +48,7 @@ div:nth-child(2) {
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.6);
 }
 
+
 /***********************************
 BOTONES
 ***********************************/
@@ -61,6 +73,7 @@ button {
 button:nth-child(1) {
     background: -webkit-radial-gradient(50%, ellipse cover, #4981b9, #273d63);
     background: -moz-radial-gradient(50%, ellipse cover, #4981b9, #273d63);
+
     height: 50px;
     border-radius: 15px;
 }
@@ -98,4 +111,51 @@ button:nth-child(3):hover {
     background: linear-gradient(#f04a3c, #d33426);
     border-bottom: none;
     border-right: none;
+}
+
+/*FOOTER*/
+
+footer {
+    background: #121212;
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+    padding-top: 20px
+}
+
+footer .icon-linkedin-with-circle {
+    color: #0077b5;
+    font-size: 22pt;
+}
+
+footer .icon-twitter3 {
+    color: #55acee;
+    font-size: 22pt;
+}
+
+footer .icon-github{
+    color: #333;
+    font-size: 22pt;
+}
+
+footer p #home {
+    color: #a2a2a2;
+    font-family: 'Rhetoric-Light';
+    font-size: 22pt;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all .5s ease-in;
+}
+
+footer p #home:hover {
+    color: aliceblue;
+}
+
+span {
+    margin: 10px;
+    transition: all .3s ease;
+}
+
+span:hover, footer p #home:hover {
+    text-shadow: 0px 0px 5px #404040;
 }
